@@ -17,6 +17,11 @@
     gap: 80px;
 }
 
+.footer-logo{
+    width: 300px;
+    height: 100px;
+}
+
 .footer-content-left, .footer-content-right, .footer-content-center{
     display: flex;
     flex-direction: column;
@@ -45,4 +50,16 @@
     margin: 20px 0;
     background-color: grey;
     border: none;
+}
+
+
+@media (max-width:750px){
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
 }
