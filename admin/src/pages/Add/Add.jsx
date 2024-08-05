@@ -32,7 +32,7 @@ const Add = ({url}) => {
                 name:"",
                 description:"",
                 price:"",
-                category:"salad"
+                category:"Salad"
             })
             setImage(false)
             toast.success(response.data.message)
@@ -67,10 +67,10 @@ const Add = ({url}) => {
                     <select onChange={onChangeHandler} name="category">
                         <option value="Salad">Salad</option>
                         <option value="Rolls">Rolls</option>
-                        <option value="Desert">Desert</option>
+                        <option value="Deserts">Deserts</option>
                         <option value="Sandwich">Sandwich</option>
-                        <option value="Cakie">Cake</option>
-                        <option value="Pure">Pure Veg</option>
+                        <option value="Cake">Cake</option>
+                        <option value="Pure Veg">Pure Veg</option>
                         <option value="Pasta">Pasta</option>
                         <option value="Noodles">Noodles</option>
                     </select>
